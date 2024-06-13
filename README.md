@@ -36,3 +36,6 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+> **Note**
+> Не забудьте указать свой секретный ключ openai в файле main.py
