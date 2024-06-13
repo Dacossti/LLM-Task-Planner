@@ -9,8 +9,18 @@
 
 
 По сути, наш алгоритм позволяет агенту (роботу) делать то же самое. В данном конкретном случае он создал бы план, который выглядит примерно так:
-Navigate fridge
-Open fridge
 
-Navigate kitchen
-ToggleObjectOn oven
+- Navigate fridge
+- OpenObject fridge
+- PickupObject eggs
+- CloseObject fridge
+- Navigate kitchen
+- PickupObject pan
+- PickupObject oil
+- ToggleObjectOn oven
+- PutObject pan oven
+- PutObject oil pan
+- PutObject eggs pan
+- PutObject salt pan
+- ToggleObjectOff oven
+
