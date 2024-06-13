@@ -11,7 +11,7 @@ from sentence_transformers.util import cos_sim
 
 
 #NOTE Add your openai API key here
-api_key= "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"
+api_key= " "
 
 client = OpenAI(
     # This is the default and can be omitted
