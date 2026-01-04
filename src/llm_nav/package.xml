@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>llm_nav</name>
+  <version>0.1.0</version>
+  <description>Navigation through LLM instructions</description>
+  <maintainer email="osias.stave@outlook.com">Osias Stave</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Build Dependencies -->
+  <build_depend>rclpy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>nav2_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>launch</build_depend>
+  <build_depend>launch_ros</build_depend>
+  <build_depend>ament_index_python</build_depend>
+  <build_depend>numpy</build_depend>
+  <build_depend>nav2_simple_commander</build_depend>
+
+  <!-- Runtime Dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
+  <exec_depend>requests</exec_depend>
+
+  <!-- Robot model and transform handling -->
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+
+  <!-- Nav2 core components -->
+  <exec_depend>nav2_planner</exec_depend>
+  <exec_depend>nav2_controller</exec_depend>
+  <exec_depend>nav2_bt_navigator</exec_depend>
+  <exec_depend>nav2_behavior_tree</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_amcl</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>nav2_util</exec_depend>
+  <exec_depend>nav2_waypoint_follower</exec_depend>
+
+  <!-- Optional simulation support -->
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <!-- Test Dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

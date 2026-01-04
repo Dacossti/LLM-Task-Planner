@@ -1,0 +1,9 @@
+{
+    "kitchen": [-2.1, -2.2],
+    "dining room": [1.0, 5.4],
+    "entrance": [1.0, -8.0],
+    "bedroom": [-2.0, 4.5],
+    "bathroom": [1.0, 2.0],
+    "office": [0.0, 3.0],
+    "living room": [3.5, 3.0]
+}

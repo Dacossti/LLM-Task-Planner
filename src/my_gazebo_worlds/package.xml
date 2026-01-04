@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_gazebo_worlds</name>
+  <version>0.0.1</version>
+  <description>Custom Gazebo world with TurtleBot3</description>
+
+  <maintainer email="osias.stave@outlook.com">Dany OSIAS</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Executable dependencies -->
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <!-- Add launch dependency -->
+  <exec_depend>launch</exec_depend>
+
+  <!-- Optional dependencies if you want to add future capabilities -->
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+  <exec_depend>turtlebot3_navigation</exec_depend>
+
+  <!-- Export section, ROS2 build type -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

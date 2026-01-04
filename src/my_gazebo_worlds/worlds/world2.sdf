@@ -1,0 +1,8 @@
+    <?xml version="1.0" ?>
+    <sdf version="1.6">
+       <world name="default">
+          <include>
+             <uri>file://{путь до вашего файла model.sdf}</uri>
+          </include>
+       </world>
+    </sdf>
