@@ -18,7 +18,6 @@
 3. [Project Structure](#project-structure)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Contributing](#contributing)
 
 ---
 
