@@ -1,3 +1,14 @@
-pandas
-sentence_transformers
-openai
+# Core dependencies
+numpy>=1.25.0
+pyyaml>=6.0
+requests>=2.31.0
+opencv-python>=4.7.0
+
+# LLM / Vision
+ultralytics>=8.0.20
+
+# ROS 2 Python packages (note: installed via ROS 2 apt / rosdep)
+# The following are listed to document your code dependencies,
+# but ROS 2 Humble installs them via `apt` or `rosdep`, not pip.
+rclpy
+nav2_simple_commander
