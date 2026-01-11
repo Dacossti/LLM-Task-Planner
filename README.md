@@ -113,7 +113,7 @@ source install/setup.bash
 
 ## Usage
 
-- Launch Navigation and Gazebo and RViz Simulation:
+- Launch LLM parsing, Navigation and Gazebo+RViz Simulation:
 
 ```bash
 ros2 launch llm_nav bringup.launch.py use_nav2:=true instruction:="your_instruction"
