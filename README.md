@@ -1,4 +1,5 @@
 # LLM Task Planner for Robotics in ROS 2 Humble
+**A ROS 2 Humble framework integrating Large Language Models (LLMs) with Nav2 for high-level task planning and autonomous robot navigation**
 [![Python](https://img.shields.io/badge/python-3.10-blue)](https://www.python.org/)
 [![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-green)](https://docs.ros.org/en/humble/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-red?logo=openai)](https://platform.openai.com/)
@@ -6,8 +7,6 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-API-purple?logo=openai)](https://openrouter.ai/)
 
 ---
-
-**A ROS 2 Humble framework integrating Large Language Models (LLMs) with Nav2 for high-level task planning and autonomous robot navigation.**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Dacossti/LLM-Task-Planner/main/demo/demo.gif" width="600">
