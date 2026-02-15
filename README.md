@@ -9,6 +9,10 @@
 
 **A ROS 2 Humble framework integrating Large Language Models (LLMs) with Nav2 for high-level task planning and autonomous robot navigation.**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Dacossti/LLM-Task-Planner/main/demo/demo.gif" width="600">
+</p>
+
 ---
 
 ## Table of Contents
